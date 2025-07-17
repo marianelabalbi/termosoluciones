@@ -113,45 +113,7 @@ a:active{
     color: #ffffff;
     background-color: #00476b;
 }
-/* Estilos para ASIDE */
-.cronologia{
-    background-color: #fcfcfda4;
-    border-color: #3d2b2e solid;
-    position: fixed;
-    right: 0;
-    top: 0px;
-    width: 300px;
-    height: 100vh;
-    border-left: 5px solid #ffffff;
-    padding: 30px;
-    z-index: 9999;
-    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.1);
-    overflow-y: auto;
-}
-.cronologia h2 {
-    font-family: "Dosis", sans-serif;
-    font-size: 30px;
-    text-align: left;
-    margin-top: 75px;
-    margin-bottom: 120px;
-    color: #4e4e4e;
-}
-.cronologia h3{
-    text-align: left;
-    font-size: 15px;
-    color: #00476b;
-}
-.cronologia p {
-    font-size: 10px;
-    margin-bottom: 5px;
-    color: #3d2b2e;
-    text-align: left;
-}
-@media (max-width:770px){
-    .cronologia {
-        display: none;
-    }
-}
+
 /* Estilos para Mi BIO */
 
 .main-boton {
@@ -183,22 +145,24 @@ main .nosotros {
 main .nosotros h1{
     font-size: 30px;
     text-align: left;
-    color: #142a43;
+    color: #00476b;
 }
 main .nosotros h2{
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     color:#00476b;
     text-align:left;
 }
 main .nosotros h3{
-    font-size: 15px;
-    color: #3d2b2e;
+    font-size: 20px;
+    color: #93c11f;
+    text-align:left;
+    font-style: italic;
 }
 main .nosotros p{
     font-size: 15px;
     margin-bottom: 30px;
-    color: #3d2b2e;
+    color: #00476b;
     text-align: justify;
 }
 main .nosotros .destacado{
@@ -227,6 +191,11 @@ main .clientes h1{
     text-align: left;
     color: #142a43;
 }
+main .clientes h3{
+    font-size: 15px;
+    text-align: left;
+    color: #142a43;
+}
 main .clientes p{
     font-size: 15px;
     margin-bottom: 30px;
@@ -242,6 +211,18 @@ main .clientes .productos h2{
     color: #142a43;
     text-align: left;
 }
+
+h4{
+    font-size: 20px;
+    text-align: left;
+    color: #93c11f;
+}
+h5{
+    font-size: 15px;
+    text-align: justify;
+    color: #f7f8f9;
+}
+
 main .clientes .productos .grilla-productos{
     display: flex;
     justify-content: center;
@@ -252,6 +233,18 @@ main .clientes .productos .grilla-productos img{
     margin: 20px;
     width: 190px;
 }
+
+
+.renovables{
+    background-color: #00476b;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
 /* Estilos para Formulario */
 .formulario-contacto{
     display: flex;
