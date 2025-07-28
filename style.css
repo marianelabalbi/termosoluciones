@@ -74,6 +74,8 @@ a:active{
     color: white;
     position: relative;
 }
+
+
 .hero .hero-contenido{
     width: 100%;
     padding: 20px ;
@@ -81,6 +83,7 @@ a:active{
 }
 .hero .hero-contenido .saludo {
     font-size: 30px;
+    color:#00476b;
 }
 .hero .hero-contenido .hero-titulo{
     font-size: 50px;
@@ -90,6 +93,7 @@ a:active{
 }
 .hero .hero-contenido .presentacion {
     font-size: 25px;
+    color: #00476b;
 
 
 }
@@ -349,4 +353,8 @@ footer .texto-footer{
 .wsp-boton img {
   width: 100px;          /* ajustá el tamaño del logo */
   height: auto;
+}
+#nuestros-clientes *{
+    text-align: left;
+   color:#00476b
 }
